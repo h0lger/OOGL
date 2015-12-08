@@ -28,7 +28,7 @@ private:
     GLuint _shaders[NUM_SHADERS];
     GLuint _uniforms[NUM_UNIFORMS];
 
-}
+};
 
 
 #endif // SHADER_INC_H
