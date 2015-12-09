@@ -14,7 +14,7 @@ private:
     Texture(const Texture& texture) {}
     void operator=(const Texture& texture) {}
 
-    GLuint _m_texture;
+    GLuint _texture;
 };
 
 #endif // TEXTURE_H

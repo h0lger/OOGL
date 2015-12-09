@@ -1,8 +1,13 @@
 #ifndef SHADER_INC_H
 #define SHADER_INC_H
-#include <string>
+#define GL_GLEXT_PROTOTYPES
 #include <GL/gl.h>
+#include <GL/glu.h>
+#include <GL/glx.h>
+#include <GL/glext.h>
+#include <string>
 #include "transform.h"
+
 
 class Shader
 {
