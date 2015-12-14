@@ -1,6 +1,11 @@
 #ifndef MESH_H
 #define MESH_H
+#define GL_GLEXT_PROTOTYPES
 #include <GL/gl.h>
+#include <GL/gl.h>
+#include <GL/glu.h>
+#include <GL/glx.h>
+#include <GL/glext.h>
 #include <glm/glm.hpp>
 #include <string>
 #include <vector>

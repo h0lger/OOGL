@@ -32,13 +32,13 @@ class ObjModel
 public:
     std::vector<ObjIndex> ObjIndices;
     std::vector<glm::vec3> Vertices;
-    std::vector<glm::vec3> UVs;
+    std::vector<glm::vec2> UVs;
     std::vector<glm::vec3> Normals;
     bool HasUVs;
     bool HasNormals;
 
     ObjModel(const std::string& fileName);
-    IndexedModel ToIndexModel();
+    IndexedModel ToIndexedModel();
 
 private:
     unsigned int FindLastVertexIndex(const std::vector<ObjIndex*>& indexLookup, const ObjIndex* currentIndex, const IndexedModel& result);
